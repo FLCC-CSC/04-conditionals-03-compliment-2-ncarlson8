@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Nick Carlson
+# DATE: 9/29/2025
+# BRIEF DESCRIPTION: Take an input. If "yes" is input then output the compliment. Otherwise output "No compliment for you!".
 
 
 
@@ -14,16 +14,12 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
-
-
-
-
-
-
-
-
-
-
+user_input = input("Would you like a compliment? ")
+if user_input == "yes":
+    print("You have wonderful eyes.")
+else:
+    print("No compliment for you!")
+print("Thank you for playing.")
 ########### END YER CODE ABOVE THIS LINE ###########
 
     
@@ -71,7 +67,7 @@ Thank you for playing.
 
 1. Did you struggle with this lab (YES/NO)?
 
-
+no
 
 
 
